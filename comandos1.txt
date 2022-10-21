@@ -13,3 +13,5 @@
 7. ls -a /
 
 8. ls /dev | grep -v ^[t]
+
+9. cd /usr | ls -R
