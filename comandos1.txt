@@ -7,3 +7,5 @@
 4. ls /dev/tty??
 
 5. ls /dev/tty*[1-4]
+
+6. ls /dev/t*C1
