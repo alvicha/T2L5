@@ -1,3 +1,6 @@
 1. grep -ic quijote el_quijote.txt
 
 2. cat el_quijote.txt | grep -v quijote | wc -l
+
+3. grep -iscr quijote 
+
