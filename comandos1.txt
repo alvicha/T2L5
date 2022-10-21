@@ -5,3 +5,5 @@
 3. ls | grep ^[t] | sort -r
 
 4. ls /dev/tty??
+
+5. ls /dev/tty*[1-4]
