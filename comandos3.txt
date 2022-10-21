@@ -7,3 +7,5 @@
 4. grep -iscr quijote | grep -v :0$
 
 5. sed 's/panza/barriga/' el_quijote.txt
+
+6. sed 's/panza/barriga/gi' el_quijote.txt
