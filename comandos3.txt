@@ -4,3 +4,4 @@
 
 3. grep -iscr quijote 
 
+4. grep -iscr quijote | grep -v :0$
