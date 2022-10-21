@@ -9,3 +9,5 @@
 5. sed 's/panza/barriga/' el_quijote.txt
 
 6. sed 's/panza/barriga/gi' el_quijote.txt
+
+7. head -n1 el_quijote.txt | cut -c 1-4
