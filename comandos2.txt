@@ -18,3 +18,5 @@
 
 19. cd ./PRUEBA
     cp mensaje dir1/mensaje && cp mensaje dir2/mensaje && cp mensaje dir3/mensaje
+
+20. ls -R /home/alumno/PRUEBA
