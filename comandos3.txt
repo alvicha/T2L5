@@ -15,3 +15,5 @@
 8. head -n1 el_quijote.txt | cut -c 4000
 
 9. cat -n el_quijote.txt | tail -n +14 | head -n12
+
+10. cat el_quijote.txt | sort -fr
