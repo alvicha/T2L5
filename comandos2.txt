@@ -13,3 +13,5 @@
 16. mkdir PRUEBA
 
 17. mkdir -p PRUEBA/{dir1/dir11,dir2,dir3/dir31/{dir311,dir312}}
+
+18. cat /etc/hostname >> /home/alumno/PRUEBA/mensaje
