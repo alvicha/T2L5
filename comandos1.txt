@@ -15,3 +15,45 @@
 8. ls /dev | grep -v ^[t]
 
 9. cd /usr | ls -R
+
+12. date
+
+13. cd /home
+
+14. pwd
+
+15. ls -i /home
+
+16. mkdir PRUEBA
+
+17. mkdir -p PRUEBA/{dir1/dir11,dir2,dir3/dir31/{dir311,dir312}}
+
+18. cat /etc/hostname >> /home/alumno/PRUEBA/mensaje
+
+19. cd ./PRUEBA
+    cp mensaje dir1/mensaje && cp mensaje dir2/mensaje && cp mensaje dir3/mensaje
+
+20. ls -R /home/alumno/PRUEBA
+
+
+Activitats Quijote:
+
+1. grep -ic quijote el_quijote.txt
+
+2. cat el_quijote.txt | grep -v quijote | wc -l
+
+3. grep -iscr quijote 
+
+4. grep -iscr quijote | grep -v :0$
+
+5. sed 's/panza/barriga/' el_quijote.txt
+
+6. sed 's/panza/barriga/gi' el_quijote.txt
+
+7. head -n1 el_quijote.txt | cut -c 1-4
+
+8. head -n1 el_quijote.txt | cut -c 4000
+
+9. cat -n el_quijote.txt | tail -n +14 | head -n12
+
+10. cat el_quijote.txt | sort -fr
